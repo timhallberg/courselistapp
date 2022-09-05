@@ -1,0 +1,19 @@
+
+[
+    {
+        "name": "Tim Hallberg", 
+        "credit": "30",
+        "shortDescription": "Snygg kille", 
+        "courseCode": "ABC123", 
+        "year":  "2008"
+    },
+    {
+        "name": "Felicia", 
+        "credit": "29",
+        "shortDescription": "Snygg tjej", 
+        "courseCode": "123ABC", 
+        "year":  "2022"
+    }
+]
+
+

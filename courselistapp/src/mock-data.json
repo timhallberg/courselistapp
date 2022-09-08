@@ -3,14 +3,21 @@
     {
         "name": "Tim Hallberg", 
         "credit": "30",
-        "shortDescription": "Snygg kille", 
+        "shortDescription": "Pluggar till webbredaktör", 
         "courseCode": "ABC123", 
-        "year":  "2008"
+        "year":  "2002"
     },
     {
         "name": "Felicia", 
         "credit": "29",
-        "shortDescription": "Snygg tjej", 
+        "shortDescription": "Pluggar på folkhögskola", 
+        "courseCode": "123ABC", 
+        "year":  "2022"
+    },
+    {
+        "name": "Mikaela", 
+        "credit": "30",
+        "shortDescription": "Pluggar på Borås högskola", 
         "courseCode": "123ABC", 
         "year":  "2022"
     }

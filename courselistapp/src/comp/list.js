@@ -3,7 +3,7 @@ import data from "../mock-data.json";
 
 const List = () => {
   const [contacts] = useState(data);
- 
+  return ( 
     <table>
       <thead>
         <th>Name</th>
@@ -25,10 +25,42 @@ const List = () => {
         ))}
       </tbody>
     </table>
-  ;
-};
 
+   );
+}
+ 
 export default List;
+
+
+
+// const List = () => {
+//   const [contacts] = useState(data);
+ 
+//     <table>
+//       <thead>
+//         <th>Name</th>
+//         <th>Credit</th>
+//         <th>Year</th>
+//         <th>Short Description</th>
+//         <th>Course Code</th>
+//       </thead>
+
+//       <tbody>
+//         {contacts.map((contact) => (
+//           <tr key="{i}" >
+//             <td>{contact.name}</td>
+//             <td>{contact.credit}</td>
+//             <td>{contact.year}</td>
+//             <td>{contact.shortDescription}</td>
+//             <td>{contact.courseCode}</td>
+//           </tr>
+//         ))}
+//       </tbody>
+//     </table>
+//   ;
+// };
+
+// export default List;
 
 //   const courseArray = [
 //     {
